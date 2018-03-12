@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${MINGW_HOME}\\include\\c++\\7.2.0",
+                "${MINGW_HOME}\\include\\c++\\7.2.0\\x86_64-w64-mingw32",
+                "${MINGW_HOME}\\include\\c++\\7.2.0\\backward",
+                "${MINGW_HOME}\\include\\c++\\7.2.0\\include",
+                "${MINGW_HOME}\\include",
+                "${MINGW_HOME}\\include-fixed",
+                "${MINGW_HOME}\\x86_64-w64-mingw32\\include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${MINGW_HOME}\\include\\c++\\7.2.0",
+                    "${MINGW_HOME}\\include\\c++\\7.2.0\\x86_64-w64-mingw32",
+                    "${MINGW_HOME}\\include\\c++\\7.2.0\\backward",
+                    "${MINGW_HOME}\\include\\c++\\7.2.0\\include",
+                    "${MINGW_HOME}\\include",
+                    "${MINGW_HOME}\\include-fixed",
+                    "${MINGW_HOME}\\x86_64-w64-mingw32\\include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include/c++/6",
+                "/usr/include/x86_64-linux-gnu/c++/6",
+                "/usr/include/c++/6/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/6/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed",
+                "/usr/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include/c++/6",
+                    "/usr/include/x86_64-linux-gnu/c++/6",
+                    "/usr/include/c++/6/backward",
+                    "/usr/lib/gcc/x86_64-linux-gnu/6/include",
+                    "/usr/local/include",
+                    "/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed",
+                    "/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 3
+}
